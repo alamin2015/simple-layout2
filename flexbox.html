@@ -5,10 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>flexbox</title>
+    <style>
+        .container {
+            display: flex;
+            border: 2px solid sandybrown;
+            justify-content: center;
+            height: 250px;
+            align-items: center;
+            flex-direction: row;
+
+        }
+
+        .box {
+            border: 2px dotted tomato;
+            width: 100px;
+            height: 100px;
+
+        }
+
+        .one {
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Flexbox html file</h1>
+    <h1 class="one">Flexbox html file</h1>
+    <div class="container">
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+    </div>
 </body>
 
 </html>
